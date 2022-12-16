@@ -1,0 +1,21 @@
+.user-login {
+  .forgot-password {
+    font-size: 0.9rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .no-account-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .user-login {
+    .no-account-section {
+      padding: 1.5rem;
+    }
+  }
+}

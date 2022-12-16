@@ -1,0 +1,28 @@
+.home-content {
+  background-color: #000;
+}
+.nav-style {
+  position: relative;
+  padding: 10px 0;
+  border-right: 2px dashed #000;
+}
+.bg-white {
+  color: #fff;
+}
+.help-style::after {
+  content: "";
+  z-index: 9;
+  height: 50%;
+  display: block;
+  position: absolute;
+  width: 2px;
+  background-color: red;
+  right: -2px;
+  top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .help-style::after {
+    display: none;
+  }
+}
